@@ -15,7 +15,7 @@ ig.module(
         logoImg: new Image(),
         init: function (gameClass, resources) {
             this.parent(gameClass, resources);
-            this.logoImg.src = ('logo.png');
+            this.logoImg.src = ('media/logo.png');
             ig.system.context.drawImage(this.logoImg, 0, 0);
         },
         end: function () {
